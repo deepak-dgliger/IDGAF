@@ -17,10 +17,11 @@ const ReactHooksIndex: React.FC = () => {
   }
 
   const layoutComponent = [
-    { name: "Use Memo", link: '/MemoHook' },
+    { name: "Use Memo", link: 'MemoHook' },
+    { name: "Daynamic Form", link: 'jsonForm' },
   ]
       
-  const pageRoute=(item)=>{ navigate(`react-hooks/${item?.link}`) }
+  const pageRoute=(item)=>{ navigate(`/react-Components/${item?.link}`) }
 
   return (
     <>{loadHelmet()}

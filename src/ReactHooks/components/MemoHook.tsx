@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react'
+import React, { useMemo, useState } from 'react';
 
 const MemoHook: React.FC = () => {
     const [number, setNumber] = useState(1);

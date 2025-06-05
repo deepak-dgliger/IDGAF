@@ -47,3 +47,21 @@ body {
   color: white;
   font-size: 22px;
 }
+
+
+.form-Container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.daynamic-form{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    gap: 8px;
+}
