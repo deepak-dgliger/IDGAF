@@ -19,6 +19,10 @@ const ReactHooksIndex: React.FC = () => {
   const layoutComponent = [
     { name: "Use Memo", link: 'MemoHook' },
     { name: "Daynamic Form", link: 'jsonForm' },
+    { name: "Api Calling", link: 'ApiCalling' }, 
+    { name: "Debounce Throttling", link: 'DebounceThrottling' }, 
+    { name: "Shallow & DeepCopy", link: 'ShallowDeepCopy' }, 
+    { name: "UseRef Hook", link: 'UseRefhook' }, 
   ]
       
   const pageRoute=(item)=>{ navigate(`/react-Components/${item?.link}`) }
