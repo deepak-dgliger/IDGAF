@@ -23,13 +23,13 @@ const ReactHooksIndex: React.FC = () => {
     { name: "Debounce Throttling", link: 'DebounceThrottling' }, 
     { name: "Shallow & DeepCopy", link: 'ShallowDeepCopy' }, 
     { name: "UseRef Hook", link: 'UseRefhook' }, 
+    { name: "Json Server", link: 'JsonServer' }, 
   ]
       
   const pageRoute=(item)=>{ navigate(`/react-Components/${item?.link}`) }
 
   return (
     <>{loadHelmet()}
-
       <h1 className="page-title">JavaScript</h1>
       <main className="card-container">
         {layoutComponent?.map((item, index) => (

@@ -12,6 +12,7 @@ const JavaScriptIndex = React.lazy(() => import('./javaScript/JavaScriptIndex'))
 const ReactHooksIndex = React.lazy(() => import('./ReactHooks/ReactHooksIndex'));
 const NotFound = React.lazy(() => import('./components/NotFound'));
 const Dashboard = React.lazy(() => import('./components/Dashboard'));
+const JsonServer = React.lazy(()=> import('./ReactHooks/components/JsonServer')) 
 
 const AppRoutes: React.FC<any> = () => {
     return (
@@ -29,6 +30,7 @@ const AppRoutes: React.FC<any> = () => {
                     <Route path="/react-Components/DebounceThrottling" element={<DebounceThrottling />} />
                     <Route path="/react-Components/ShallowDeepCopy" element={<ShallowDeepCopy />} />
                     <Route path="/react-Components/UseRefhook" element={<UseRefhook />} />
+                    <Route path="/react-Components/JsonServer" element={<JsonServer />} />
                     <Route path="/JavaScript-Components/UseRefhook" element={<IntersectionObserverExample />} />
                     <Route path="/JavaScript-Components/ArrayDelete" element={<ArrayDelete />} />
                     <Route path="*" element={<NotFound />} />
